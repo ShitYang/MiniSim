@@ -1,0 +1,25 @@
+{
+   "version": 2,
+   "cmakeMinimumRequired": {
+      "major": 3,
+      "minor": 3,
+      "patch": 0
+   },
+   "configurePresets": [
+      {
+         "name": "ninja-msvc",
+         "displayName": "Ninja with MSVC",
+         "generator": "Ninja",
+         "binaryDir": "${sourceDir}/build",
+         "cacheVariables": {
+            "CMAKE_C_COMPILER": "cl",
+            "CMAKE_CXX_COMPILER": "cl",
+            "CMAKE_BUILD_TYPE": "debug"
+         },
+         "environment": {
+            "CC": "cl",
+            "CXX": "cl"
+         }
+      }
+  ]
+}

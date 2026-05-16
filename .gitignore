@@ -1,0 +1,5 @@
+build
+.cache
+3rd_party
+wsf_plugins
+*.png

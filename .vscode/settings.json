@@ -1,0 +1,7 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.cmakePath": "D:\\CMake\\CMake-4.0\\bin\\cmake.exe",
+    "cmake.debugConfig": {
+    }
+}
+
