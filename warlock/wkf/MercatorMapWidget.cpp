@@ -615,7 +615,7 @@ void MercatorMapWidget::PeparePlatformSprites()
         "out vec4 FragColor;"
         "uniform sampler2D ourTexture;"
         "void main() {"
-        "   FragColor = texture(ourTexture, TexCoord) * vec4(0.0, 0.0, 0.0, 1.0);"
+        "   FragColor = 1.0 - vec4(texture(ourTexture, TexCoord).xyz, 0.0);"
         "}"
     );
     m_platformProgram->link();

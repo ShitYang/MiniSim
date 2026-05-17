@@ -22,7 +22,7 @@ end_platform_type
 
 platform_type TOWED_TYPE WSF_PLATFORM
    side blue
-   icon F-18
+   icon platform
    
    radar_signature TOWED-SIG
 
@@ -96,7 +96,7 @@ end_weapon
 
 platform lead WSF_PLATFORM
   side dark_red
-  icon a-160
+  icon platform
   add weapon decoy TOWED_WEAPON
   end_weapon
 
