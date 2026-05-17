@@ -9,7 +9,7 @@
             "type": "cppvsdbg",  // 关键：必须使用 cppvsdbg 而不是 cppdbg
             "request": "launch",
             "program": "${workspaceFolder}/build/bin/warlock.exe",  // 可执行文件路径
-            "args": ["D:/WorkSpace/MiniSim/build/bin/projects/_helloworld.txt"],          // 命令行参数
+            "args": ["D:/WorkSpace/MiniSim/build/bin/projects/helloworld.txt"],          // 命令行参数
             "stopAtEntry": false, // 是否在 main 入口暂停
             "cwd": "${workspaceFolder}", // 工作目录
             "environment": [],   // 环境变量
